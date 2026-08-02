@@ -31,7 +31,7 @@
 
 The complete system design, performance benchmarks, and post-quantum VPN architecture report are available in the repository:
 
-* 📄 **Project Report / Paper:** [`DNM PQC VPN-Group 3.pdf`](./Docs/DNM%20PQC%20VPN-Group%203.pdf)
+* 📄 **Project Report / Paper:** (https://drive.google.com/file/d/15Gicwfay-oOz6Wg22LiJynE7Ahfi-buD/view?usp=sharing)
 * 📊 **Presentation Deck:** [`Dark Network Mesh & Post-Quantum Cryptography VPN.pdf`](./Docs/Dark%20Network%20Mesh%20%26%20Post-Quantum%20Cryptography%20VPN.pdf)
 
 ---
