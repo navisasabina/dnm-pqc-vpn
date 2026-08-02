@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Architecture-Dark%20Network%20Mesh-8A2BE2?style=for-the-badge&logo=shield&logoColor=white" />
   <img src="https://img.shields.io/badge/Security-Post--Quantum%20Crypto-00C853?style=for-the-badge&logo=lock&logoColor=white" />
   <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Analytics-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-FFD700?style=for-the-badge&logo=open-source-initiative&logoColor=black" />
 </p>
 
@@ -12,12 +12,19 @@
 
 ---
 
+## 🌐 Live Demo & Deployment
+
+> ⚡ **Live VPS Dashboard:** [http://20.249.148.67:3000/](http://20.249.148.67:3000/)  
+> *(Note: Available when the demonstration VPS instance is active).*
+
+---
+
 ## 🌟 Key Features
 
-* 🔐 **Post-Quantum Cryptography (PQC):** Utilizes Rosenpass to provide quantum-resistant key exchange mechanisms against future "harvest now, decrypt later" attacks.
-* 👻 **Stealth Port Architecture:** Employs `Fwknop` Single Packet Authorization (SPA) to keep firewall ports closed and invisible to port scanners.
-* 🕸️ **Dark Network Mesh Tunneling:** Leverages WireGuard for high-speed, encrypted mesh networking between B2B FinTech nodes.
-* 📊 **Real-Time Monitoring Dashboard:** Interactive React-based dashboard to visualize network latency, node status, and secure transaction telemetry.
+* 🔐 **Post-Quantum Cryptography (PQC):** Integrates Rosenpass key exchange mechanisms to mitigate future "harvest now, decrypt later" quantum threats.
+* 👻 **Stealth Port Architecture:** Employs `Fwknop` Single Packet Authorization (SPA) to keep firewall ports default-closed and invisible to port scanners.
+* 🕸️ **Dark Network Mesh Tunneling:** Leverages WireGuard for low-latency, kernel-level encrypted mesh networking across B2B FinTech nodes.
+* 📊 **Comprehensive Telemetry & Dashboards:** Real-time visual monitoring for mesh topology, PQC security status, penetration testing telemetry, and Grafana analytics integration.
 
 ---
 
@@ -25,12 +32,28 @@
 
 ```text
 dnm-pqc-vpn/
-├── 📂 apps/
-│   └── 💻 dashboard/          # PQC-VPN Monitoring Dashboard (React + Vite)
-│       ├── 📂 public/         # Static assets & icons
-│       └── 📂 src/            # UI Components, State Management & Telemetry
 ├── 📂 Configurations/         # Security & Network Infrastructure Configs
 │   ├── 📂 Fwknop/             # Single Packet Authorization (SPA) rules
 │   ├── 📂 Rosenpass/          # Post-Quantum key exchange parameters
 │   └── 📂 WireGuard/          # Mesh tunnel configurations (wg0.conf)
-└── 📂 Docs/                   # System Architecture & Technical Documentation
+├── 📂 Docs/                   # System Architecture & Technical Reports
+│   ├── 📄 DNM PQC VPN-Group 3.pdf
+│   └── 📄 Dark Network Mesh & Post-Quantum Cryptography VPN.pdf
+├── 📂 apps/
+│   └── 💻 dashboard/          # React + Vite Monitoring Dashboard
+│       ├── 📂 public/         # Favicon & SVG Assets
+│       └── 📂 src/
+│           ├── 📂 assets/     # Images & Graphic Assets (hero.png, etc.)
+│           ├── 📂 components/ # UI Layouts (Sidebar, Header, Layout, ErrorAlert)
+│           ├── 📂 lib/        # Telemetry Integrations (grafana.js)
+│           └── 📂 pages/      # Feature Dashboards
+│               ├── 📄 Benchmark.jsx
+│               ├── 📄 DarkNetwork.jsx
+│               ├── 📄 LogsMonitoring.jsx
+│               ├── 📄 MeshTopology.jsx
+│               ├── 📄 Overview.jsx
+│               ├── 📄 PQCSecurity.jsx
+│               └── 📄 PenTestResults.jsx
+├── 📄 .gitignore
+├── 📄 LICENSE
+└── 📄 README.md
